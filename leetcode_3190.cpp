@@ -19,14 +19,14 @@ class Solution
 };
 
 //New Solution for leetcode 3190.cpp
-class Solution {
-public:
-    int minimumOperations(vector<int>& nums) {
-        int count = 0;
-        for (int x : nums) {
-            if (x % 3 != 0)
-                count++;
-        }
-        return count;
-    }
-};
+        // class Solution {
+        // public:
+        //     int minimumOperations(vector<int>& nums) {
+        //         int count = 0;
+        //         for (int x : nums) {
+        //             if (x % 3 != 0)
+        //                 count++;
+        //         }
+        //         return count;
+        //     }
+        // };
