@@ -1,0 +1,31 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string str;
+    cout << "Enter input string: ";
+    cin >> str;
+    int stars = 0;
+    int hashes = 0;
+    // 2. Loop through the string to count symbols
+    // This 'for' loop looks at every character 'ch' in the string 'str'
+    for (char ch : str) {
+        if (ch == '*') {
+            stars++;
+        } else if (ch == '#') {
+            hashes++;
+        }
+    }
+    // 3. Calculate and print the result
+    // Logic: 
+    // If stars > hashes, (stars - hashes) is Positive
+    // If stars < hashes, (stars - hashes) is Negative
+    // If stars == hashes, (stars - hashes) is 0
+                                                    // if(ch==stars)
+                                                    // {
+                                                    //     cout<<"0"
+                                                    // }
+    cout << (stars - hashes) << endl;
+    return 0;
+}
