@@ -1,7 +1,7 @@
 import java.net.*;
 
 public class InetExample {
-    public static void main(String[] args) {
+    public static void main(String[lee] args) {
 
         try {
             InetAddress local = InetAddress.getLocalHost();
