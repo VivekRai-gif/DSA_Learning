@@ -9,10 +9,10 @@ public:
         int bits = 0;
         while (n) {
             bits++;
-            //left shift
+            //r8 shift
             n >>= 1;
         }
-        //right shift
+        //l8 shift
         return 1 << bits;
     }
 };
