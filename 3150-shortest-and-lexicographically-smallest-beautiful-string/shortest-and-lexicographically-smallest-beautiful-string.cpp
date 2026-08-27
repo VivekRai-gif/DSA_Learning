@@ -2,10 +2,10 @@ class Solution {
 public:
     string shortestBeautifulSubstring(string s, int k) {
         int n = s.length();
+            string result = "";
 
         for(int len = k; len <= n; len++) {
 
-            string result = "";
 
             for(int start = 0; start + len <= n; start++) { //trying all possible substr of len
                 string temp = s.substr(start, len); //[start ... start+len]
